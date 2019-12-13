@@ -1,0 +1,73 @@
+body {
+	color: #221811;
+	background:linear-gradient(45deg, rgba(218, 64, 244, 0.26) 0%, rgba(218, 64, 244, 0.26) 3%,rgba(184, 81, 207, 0.26) 3%, rgba(184, 81, 207, 0.26) 26%,rgba(149, 97, 169, 0.26) 26%, 
+	rgba(149, 97, 169, 0.26) 27%,rgba(115, 114, 132, 0.26) 27%, rgba(115, 114, 132, 0.26) 46%,rgba(80, 130, 94, 0.26) 46%, rgba(80, 130, 94, 0.26) 87%,rgba(46, 147, 57, 0.26) 87%, 
+	rgba(46, 147, 57, 0.26) 100%),linear-gradient(0deg, rgba(247, 80, 105, 0.26) 0%, rgba(247, 80, 105, 0.26) 1%,rgba(223, 84, 119, 0.26) 1%, rgba(223, 84, 119, 0.26) 11%,
+	rgba(199, 88, 133, 0.26) 11%, rgba(199, 88, 133, 0.26) 46%,rgba(174, 91, 147, 0.26) 46%, rgba(174, 91, 147, 0.26) 54%,rgba(150, 95, 161, 0.26) 54%, rgba(150, 95, 161, 0.26) 73%,
+	rgba(126, 99, 175, 0.26) 73%, rgba(126, 99, 175, 0.26) 100%),linear-gradient(90deg, rgb(74, 13, 231) 0%, rgb(74, 13, 231) 18%,rgb(96, 13, 230) 18%,
+	 rgb(96, 13, 230) 21%,rgb(119, 13, 229) 21%, rgb(119, 13, 229) 26%,rgb(141, 13, 228) 26%, rgb(141, 13, 228) 32%,rgb(163, 12, 226) 32%, rgb(163, 12, 226) 44%,rgb(185, 12, 225) 44%, 
+	 rgb(185, 12, 225) 56%,rgb(208, 12, 224) 56%, rgb(208, 12, 224) 64%,rgb(230, 12, 223) 64%, rgb(230, 12, 223) 100%);
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: Georgia, 'Times New Roman', Times, serif,sans-serif;
+	font-size: 1em;
+	color: rgb(199, 169, 255);
+	
+	}
+
+main {
+	position: sticky;
+	display:block;
+	margin-left: 27%;
+	margin-right: 65%;
+	margin-top: 9%;
+	margin-bottom:5%;
+	background-color: rgba(21, 20, 24, 0.26);
+	padding-top: 10px; padding-bottom: 10px; padding-left: 1em; padding-right: 1em;
+	text-align: center;
+	backdrop-filter: blur(20px) ;
+	float: left;
+}
+
+img {
+	position:inherit;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.2em;
+	opacity: .85;
+	border: 20px solid rgba(21, 20, 24, 0.26);;
+	float:center;
+	
+	}
+
+#yeet{
+	position:inherit;
+	display:block;
+	margin-left: 65%;
+	margin-right: 27%;
+	margin-top: 7%;
+	background-color: rgba(21, 20, 24, 0.26);
+	padding-top: 10px; padding-bottom: 10px; padding-left: 1em; padding-right: 1em;
+	text-align: center;
+	backdrop-filter: blur(20px) ;
+	float:right;
+}
+
+@media only screen and (max-width: 1024px) {
+	body{
+		font-size: .5em;
+	}
+	main {
+		margin-top: 45%;
+		margin-left: 5%
+	}
+	img {
+		width: 50%;
+	}
+	#yeet {
+		margin-bottom: 30%;
+		margin-right: 5%
+	}
+}

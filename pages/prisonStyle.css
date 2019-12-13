@@ -1,0 +1,75 @@
+body {
+  color: #221811;
+  background: linear-gradient(45deg, rgba(218, 64, 244, 0.26) 0%, rgba(218, 64, 244, 0.26) 3%, rgba(184, 81, 207, 0.26) 3%, rgba(184, 81, 207, 0.26) 26%, rgba(149, 97, 169, 0.26) 26%, rgba(149, 97, 169, 0.26) 27%, rgba(115, 114, 132, 0.26) 27%, rgba(115, 114, 132, 0.26) 46%, rgba(80, 130, 94, 0.26) 46%, rgba(80, 130, 94, 0.26) 87%, rgba(46, 147, 57, 0.26) 87%, rgba(46, 147, 57, 0.26) 100%), linear-gradient(0deg, rgba(247, 80, 105, 0.26) 0%, rgba(247, 80, 105, 0.26) 1%, rgba(223, 84, 119, 0.26) 1%, rgba(223, 84, 119, 0.26) 11%, rgba(199, 88, 133, 0.26) 11%, rgba(199, 88, 133, 0.26) 46%, rgba(174, 91, 147, 0.26) 46%, rgba(174, 91, 147, 0.26) 54%, rgba(150, 95, 161, 0.26) 54%, rgba(150, 95, 161, 0.26) 73%, rgba(126, 99, 175, 0.26) 73%, rgba(126, 99, 175, 0.26) 100%), linear-gradient(90deg, #4a0de7 0%, #4a0de7 18%, #600de6 18%, #600de6 21%, #770de5 21%, #770de5 26%, #8d0de4 26%, #8d0de4 32%, #a30ce2 32%, #a30ce2 44%, #b90ce1 44%, #b90ce1 56%, #d00ce0 56%, #d00ce0 64%, #e60cdf 64%, #e60cdf 100%);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Georgia, 'Times New Roman', Times, serif,sans-serif;
+  font-size: 1em;
+  color: #c7a9ff;
+}
+
+main {
+  position: -webkit-sticky;
+  position: sticky;
+  display: block;
+  margin-left: 27%;
+  margin-right: 65%;
+  margin-top: 9%;
+  margin-bottom: 5%;
+  background-color: rgba(21, 20, 24, 0.26);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  float: left;
+}
+
+img {
+  position: inherit;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.2em;
+  opacity: .85;
+  border: 20px solid rgba(21, 20, 24, 0.26);
+  float: center;
+}
+
+#yeet {
+  position: inherit;
+  display: block;
+  margin-left: 65%;
+  margin-right: 27%;
+  margin-top: 7%;
+  background-color: rgba(21, 20, 24, 0.26);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: center;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  float: right;
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: .5em;
+  }
+  main {
+    margin-top: 45%;
+    margin-left: 5%;
+  }
+  img {
+    width: 50%;
+  }
+  #yeet {
+    margin-bottom: 30%;
+    margin-right: 5%;
+  }
+}
+/*# sourceMappingURL=prisonStyle.css.map */
